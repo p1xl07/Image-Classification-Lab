@@ -1,0 +1,59 @@
+# Data downloaded by torchvision
+cifar10/
+data/
+
+# Model artifacts
+checkpoints/
+*.pt
+*.pth
+*.pth.tar
+best_model.pt
+
+# Python caches
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# Environment/IDE
+.env
+.venv/
+venv/
+.idea/
+.vscode/
+*.swp
+
+# OS
+Thumbs.db
+Desktop.ini
+
+# Not Git
+*.log
+*.csv
+output/
+results/
+figures/
+
+# All local datasets and downloaded archives
+data/
+cifar10/
+
+# All model checkpoint directories and weights
+checkpoints*/
+*.pt
+*.pth
+*.pth.tar
+best_model.pt
+
+# Python environments and test caches
+.venv*/
+venv/
+.pytest_cache/
+**/__pycache__/
+*.py[cod]
+
+# Local training histories and generated outputs
+*.csv
+output/
+results/
+figures/

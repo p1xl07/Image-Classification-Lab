@@ -1,0 +1,15 @@
+{
+  "batch_size": 128,
+  "checkpoint_dir": "checkpoints",
+  "csv": "cifar_cnn_dev_history.csv",
+  "epochs": 5,
+  "lr": 0.001,
+  "model": "SmallCNN",
+  "optimizer": "Adam",
+  "patience": 3,
+  "seed": 42,
+  "subset_per_class": 50,
+  "val_ratio": 0.1,
+  "weight_decay": 0.0005,
+  "workers": 2
+}
